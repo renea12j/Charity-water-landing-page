@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Charity: Water | Rebuild the World</title>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"  rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Open Sans', sans-serif;
+      background-color: #ffffff;
+    }
+    .hero {
+      display: flex;
+      flex-wrap: wrap;
+      background-color: #022B47;
+      color: white;
+      padding: 60px 5%;
+      position: relative;
+    }
+    .logo {
+      position: absolute;
+      top: 20px;
+      left: 30px;
+      display: flex;
+      align-items: center;
+      font-weight: bold;
+      font-size: 18px;
+    }
+    .logo img {
+      height: 30px;
+      margin-right: 10px;
+    }
+    .contact-btn {
+      position: absolute;
+      top: 20px;
+      right: 30px;
+      background-color: #FFC600;
+      color: #000;
+      padding: 10px 20px;
+      border: none;
+      font-weight: bold;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .left-content {
+      flex: 1;
+      max-width: 50%;
+      padding-right: 40px;
+    }
+    .left-content h1 {
+      font-size: 44px;
+      line-height: 1.2;
+      margin-bottom: 0;
+      font-weight: 700;
+    }
+    .left-content h2 {
+      font-size: 30px;
+      font-weight: 600;
+      margin-top: 0;
+      margin-bottom: 20px;
+    }
+    .left-content p {
+      font-size: 16px;
+      margin-bottom: 25px;
+    }
+    .subscribe {
+      display: flex;
+      margin-bottom: 20px;
+    }
+    .subscribe input {
+      flex: 1;
+      padding: 15px;
+      border: none;
+      border-radius: 5px 0 0 5px;
+      font-size: 14px;
+    }
+    .subscribe button {
+      padding: 15px 25px;
+      background-color: #FFC600;
+      border: none;
+      color: #000;
+      font-weight: bold;
+      border-radius: 0 5px 5px 0;
+      cursor: pointer;
+    }
+    .right-content {
+      flex: 1;
+      max-width: 50%;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .phone-mockup {
+      width: 280px;
+      height: 520px;
+      background-color: white;
+      border-radius: 20px;
+      overflow: hidden;
+      margin-bottom: 20px;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+    }
+    .phone-mockup img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+    .floating-card {
+      background-color: white;
+      color: black;
+      border-radius: 10px;
+      padding: 15px;
+      margin-bottom: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      width: 250px;
+      font-size: 14px;
+    }
+    .floating-card p {
+      margin: 5px 0;
+    }
+    .track-widget {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .track-widget img {
+      width: 40px;
+    }
+    @media (max-width: 768px) {
+      .hero {
+        flex-direction: column;
+      }
+      .left-content, .right-content {
+        max-width: 100%;
+        padding-right: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <section class="hero">
+    <div class="logo">
+      <img src="https://www.charitywater.org/favicon-32x32.png" alt="Charity Water">
+      Charity:Water
+    </div>
+    <button class="contact-btn">Contact Us</button>
+
+    <div class="left-content">
+      <h1>Rebuild The World.</h1>
+      <h2>One Clean Drop At A Time</h2>
+      <p>100% of your donation funds clean water systems led by local communities—with full transparency and measurable results.</p>
+      <div class="subscribe">
+        <input type="text" placeholder="I want to give where it works. Don’t you?">
+        <button>Subscribe</button>
+      </div>
+    </div>
+
+    <div class="right-content">
+      <div class="phone-mockup">
+        <img src="https://i.imgur.com/yrk0o2u.png" alt="Phone collage mockup">
+      </div>
+      <div class="floating-card">
+        <strong>YOUR IMPACT</strong>
+        <p>✔ Project in Uganda funded by college campaign</p>
+        <p>✔ New GPS-tracked site launched in Nepal</p>
+        <p>✔ 5 families gained access to clean water today</p>
+      </div>
+      <div class="floating-card track-widget">
+        <img src="https://img.icons8.com/color/96/000000/order-delivered.png" alt="Track Icon">
+        <div>
+          <strong>TRACK YOUR DONATIONS</strong>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
